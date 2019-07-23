@@ -87,6 +87,7 @@ font-size: 6em;
   cursor: pointer;
   transition: all ease .2s;
   text-align: center;
+  padding: 0;
 }
 .display:active{
   box-shadow: 0px 0px 1px 4.5px rgba(58, 131, 162, 0.5);

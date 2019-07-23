@@ -26,9 +26,9 @@ const thirteen = [
 const fourteen = [
   {question:'14 x 1',answer: '14'},
   {question:'14 x 2',answer: '28'},
-  {question:'14 x 3',answer: '32'},
+  {question:'14 x 3',answer: '42'},
   {question:'14 x 4',answer: '56'},
-  {question:'14 x 5',answer: '75'},
+  {question:'14 x 5',answer: '70'},
   {question:'14 x 6',answer: '84'},
   {question:'14 x 7',answer: '98'},
   {question:'14 x 8',answer: '112'},
@@ -101,17 +101,17 @@ const eighteen = [
   {question:'18 x 5',answer: '90'},
   {question:'18 x 6',answer: '108'},
   {question:'18 x 7',answer: '126'},
-  {question:'18 x 8',answer: '162'},
-  {question:'18 x 9',answer: '180'},
-  {question:'18 x 10',answer: '198'},
-  {question:'18 x 11',answer: '216'},
-  {question:'18 x 12',answer: '234'},
-  {question:'18 x 13',answer: '252'},
-  {question:'18 x 14',answer: '270'},
-  {question:'18 x 15',answer: '288'},
-  {question:'18 x 16',answer: '306'},
-  {question:'18 x 17',answer: '324'},
-  {question:'18 x 18',answer: '342'}
+  {question:'18 x 8',answer: '144'},
+  {question:'18 x 9',answer: '162'},
+  {question:'18 x 10',answer: '180'},
+  {question:'18 x 11',answer: '198'},
+  {question:'18 x 12',answer: '216'},
+  {question:'18 x 13',answer: '234'},
+  {question:'18 x 14',answer: '252'},
+  {question:'18 x 15',answer: '270'},
+  {question:'18 x 16',answer: '288'},
+  {question:'18 x 17',answer: '306'},
+  {question:'18 x 18',answer: '324'}
 ];
 const nineteen = [
   {question:'19 x 1',answer: '19'},
@@ -128,9 +128,9 @@ const nineteen = [
   {question:'19 x 12',answer: '228'},
   {question:'19 x 13',answer: '247'},
   {question:'19 x 14',answer: '266'},
-  {question:'19 x 15',answer: '288'},
-  {question:'19 x 16',answer: '306'},
-  {question:'19 x 17',answer: '324'},
+  {question:'19 x 15',answer: '285'},
+  {question:'19 x 16',answer: '304'},
+  {question:'19 x 17',answer: '323'},
   {question:'19 x 18',answer: '342'},
   {question:'19 x 19',answer: '361'}
 ];
@@ -266,7 +266,6 @@ button.addEventListener('click', e => {
     button.textContent = 'SHOW';
     console.log(button);
   } else if(button.textContent === 'SHOW'){
-// console.log('works');
     showAnswer();
     button.textContent = 'NEXT';
 
@@ -283,5 +282,4 @@ button.addEventListener('click', e => {
 
 
 menu.addEventListener('click', toggle);
-// menu.addEventListener('click', toggleOpen);
 links.addEventListener('click',changeH1);

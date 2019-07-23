@@ -159,7 +159,7 @@ const twenty = [
 
 
 
-
+screen.lockOrientation('portrait');
 
 const showH1 = e => {
   if(question.style.visibility = 'visible' && startBtn.textContent !== 'START'){

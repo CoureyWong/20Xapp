@@ -156,7 +156,7 @@ const twenty = [
   {question:'20 x 19',answer: '380'},
   {question:'20 x 20',answer: '400'}
 ];
-screen.lockOrientation('portrait');
+
 
 const showH1 = e => {
   if(question.style.visibility = 'visible' && startBtn.textContent !== 'START'){

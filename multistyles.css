@@ -86,7 +86,9 @@ font-size: 6em;
   font-family: 'Concert One', cursive;
   cursor: pointer;
   transition: all ease .2s;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
 }
 .display:active{
